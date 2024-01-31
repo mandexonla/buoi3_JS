@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src='hello.js'></script>
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <form class="form-input" name="form-loop" action="#">
+      <div class="form-title">
+        <p>perform math</p>
+      </div>
+      <div class="form-top">
+        <div class="input-top"> <label for="">NumberA</label>
+          <input id="numberA" type="text">
+        </div>
+        <div class="input-top"> <label for="">NumberB</label>
+          <input id="numberB" type="text">
+        </div>
+
+      </div>
+      <div class="form-center">
+        <label for="">Summation</label>
+        <button class="btn-marth" onclick="Summation()">+</button>
+        <label for="">Subtraction</label>
+        <button class="btn-marth" onclick="Subtraction()">-</button>
+        <label for="">Mutiplication</label>
+        <button class="btn-marth" onclick="Mutiplication()">*</button>
+        <label for="">Division</label>
+        <button class="btn-marth" onclick="Division()">/</button>
+      </div>
+      <div class="form-bottom">
+        <label for="">Result A&B</label>
+        <input id="result" type="text">
+      </div>
+    </form>
+
+
+
+</body>
+
+</html>
